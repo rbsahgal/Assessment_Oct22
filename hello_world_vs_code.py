@@ -11,3 +11,15 @@ print(np.random.random_sample(kk.shape))
 print(np.random.randint(low= 245, high = 990, size = (2,2)))
 print(np.random.randn(3,3))
 print(np.array([1, 2, 3, 4])**4)
+numbers = [1, 2, 3]
+numbers_copy = numbers
+numbers_right_copy = numbers.copy()
+numbers.append(45)
+print(numbers)
+print(numbers_copy)
+print(numbers_right_copy)
+
+mylist = ["a", "b", "a", "c", "c"]
+print(mylist)
+new_list = list((dict.fromkeys(mylist)))
+print(new_list)
